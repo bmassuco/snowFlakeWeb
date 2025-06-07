@@ -1,0 +1,3 @@
+Página web diseñada con el objetivo de cumplir con la entrega para certificar el curso de talento-tech "Front-End JS".
+La misma se trata de un e-comerce de una tienda que vende productos relacionados al esqui.
+Cuanta con una pagina principal donde se describe el objetivo de la tienda con una breve explicacion en "Sobre nosotros" y un segmento de reseñas, una de ubicacion con un mapa y un formulario de contacto y la sección de productos divididos por categorías.
