@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Snow Flake - Deportes de invierno</title>
 </head>
 
@@ -18,19 +19,30 @@
     <header>
         <div class="container header-content">
             <div class="logo">
-                <a href="./index.html" class="logo">
-                    <img src="./img/logo.png" alt="Logo de la tienda" class="imglogo" width="200px"></a>
+                <a href="./index.html"><img src="./img/logo.png" alt="Logo" class="imglogo" width="200px"></a>
             </div>
-            <div class="container">
-                <nav>
-                    <ul>
-                        <li><a href="./index.html">HOME</a></li>
-                        <li><a href="#nosotros">NOSOTROS</a></li>
-                        <li><a href="./productos.html">PRODUCTOS</a></li>
-                        <li><a href="./contacto.html">CONTACTO</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="#nosotros">NOSOTROS</a></li>
+                    <li><a href="./productos.html">PRODUCTOS</a></li>
+                    <li><a href="./contacto.html">CONTACTO</a></li>
+                    <li>
+                        <a href="#" id="icono-carrito">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span id="contador-carrito" class="badge bg-danger">0</span>
+                        </a>
+                        <div id="carrito-menu" class="carrito-menu oculto">
+                            <ul id="lista-carrito" class="lista-productos"></ul>
+                            <p><strong>Total:</strong> $<span id="total-carrito">0</span></p>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-danger btn-sm flex-fill" id="vaciar-carrito">Vaciar</button>
+                                <button class="btn btn-success btn-sm flex-fill" id="btnPagar">Pagar</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
 

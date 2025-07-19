@@ -288,6 +288,55 @@ form input[type="reset"]:hover {
 
 /*CSS PRODUCTOS*/
 
+button.comprar {
+    background-color: #0d5c7d;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 0.95rem;
+    width: 100%;
+}
+
+button.comprar:hover {
+    background-color: #0a4a64;
+    transform: scale(1.03);
+}
+
+#icono-carrito {
+  position: relative;
+  font-size: 1.3rem;
+  color: #0d5c7d;
+}
+
+#contador-carrito {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.carrito-menu {
+  position: absolute;
+  right: 0;
+  top: 130%;
+  background-color: #fff;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 1rem;
+  border-radius: 10px;
+  z-index: 200;
+}
+
+.oculto {
+  display: none;
+}
+
 .titulo-card h3{
     font-size: 1.2rem;
     color: #1576a0;
